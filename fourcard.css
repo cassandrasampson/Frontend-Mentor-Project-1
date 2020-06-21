@@ -1,0 +1,192 @@
+
+body {
+	background-color: hsl(0, 0%, 98%); 
+	margin: auto;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1440px;
+    min-width: 375px;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 200;
+	margin-top: 100px;
+	color: hsl(229, 6%, 66%);
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+
+h4 {
+	font-weight: 700;
+	color: hsl(234, 12%, 34%);
+	font-size: 25px;
+	text-align: left;
+}
+
+
+.topparagraph {
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+}
+
+section {
+	display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+/*.wrap .flex-container1 {
+	
+	}
+
+.wrap .flex-container2 {
+	
+	display: inline-block;
+	vertical-align:middle;
+	margin: 20px;
+} 
+
+.wrap .flex-container3 {
+	
+	display: inline-block;
+	vertical-align: middle;
+	margin: 20px;;
+}
+*/
+section img {
+position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.container1 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	width: 300px;
+	background-color: white; 
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	border-radius: 5px;
+	border-top: 3px solid hsl(180, 62%, 55%);
+	margin: 20px;
+    color: hsl(229, 6%, 66%);
+    text-align: left;  
+    padding: 0px 40px 40px 40px;
+  	position: relative;
+}
+
+.container2 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	transition: 0.4s;
+	width: 300px;
+	background-color: white; 
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	border-radius: 5px;
+	border-top: 3px solid hsl(0, 78%, 62%);
+	margin: 20px;
+	color: hsl(229, 6%, 66%);
+	text-align: left;
+	padding: 0px 40px 40px 40px;
+	position: relative;
+
+}
+
+.container3 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	transition: 0.4s;
+	width: 300px;
+	background-color: white; 
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	border-radius: 5px;
+	border-top: 3px solid hsl(34, 97%, 64%);
+	margin: 20px;
+	color: hsl(229, 6%, 66%);
+	text-align: left;
+	padding: 0px 40px 40px 40px;	
+	position: relative;
+}
+
+.container4 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	transition: 0.4s;
+	width: 300px;
+	background-color: white; 
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	border-radius: 5px;
+	border-top: 3px solid hsl(212, 86%, 64%);
+	margin: 20px;
+	color: hsl(229, 6%, 66%);
+	text-align: left;
+	padding: 0px 40px 40px 40px;
+	position: relative;
+	}
+
+section .container1 {
+	order: 1;
+    top: 150px;
+}
+
+section .container2 {
+	order: 2;
+   
+}
+
+section .container3 {
+	order: 3;
+    top: 150px;
+}
+
+section .container4 {
+	order: 4;
+   
+}
+
+p {
+	padding-bottom: 80px;
+}
+
+/*he designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+*/
